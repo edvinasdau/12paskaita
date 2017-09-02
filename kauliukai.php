@@ -32,9 +32,11 @@ function check($aaa){
         $result .= " Vienodi kauliukai";
     }
 
-    if($aaa[0] < 3 && $aaa[1] < 3){
+    if($aaa[0] < 3 or $aaa[1] < 3){
         $result .= " Pralosei!";
     }
+    if($aaa[0] %2 == 0)
+        $result .= " Lyginis!";
 
     return $result;
 
