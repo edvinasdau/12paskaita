@@ -4,9 +4,21 @@
 	<title>Temperatura</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<meta charset="utf-8">
+	<style type="text/css">
+		th {
+			background-color: pink;
+			font-size: 150%;
+			padding: 50px;
+			text-align: center;
+			padding-right: 50px; 
+		}
+		td {
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	<div class="container-fluid" style="background-color: orange; padding: 30px;">
+	<div class="container-fluid" style="background-color: orange; padding: 50px;">
 		<div class="row head">
 			<h1>Temperatūra ir pojūtis</h1>
 		</div>
