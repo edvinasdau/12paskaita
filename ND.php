@@ -50,7 +50,7 @@ function check($i){
 echo "<table class='table-striped'>";
 echo "<tr><th>Temperatūra</th><th>Pojūtis</th></tr>";
 
-for ($i= -30; $i <= 36; $i= $i + 3) { 
+for ($i= -30; $i <= 36; $i+= 3) { 
 	echo "<tr><td>" . $i . "</td><td>" . check($i) . "</td></tr>";
 }
 
